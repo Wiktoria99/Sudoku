@@ -1,0 +1,37 @@
+# Editors / IDEs
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+**/.history/
+.projectile
+*~
+.#*
+
+# Packages
+**/.npmrc
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# testing
+**/.reports/
+**/coverage
+test-results
+junit*.xml
+
+# Dotenv
+.env
+
+# OS
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# other
+**/.log/
+**/*.tar.gz
+**/.eslintcache
