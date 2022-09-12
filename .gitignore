@@ -9,6 +9,7 @@
 .projectile
 *~
 .#*
+./.vscode
 
 # Packages
 **/.npmrc
