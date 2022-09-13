@@ -1,12 +1,18 @@
 import "./App.css";
 
-import SudokuBoard from "../components/SudokuBoard";
+import Container from "@mui/material/Container";
+import { ThemeProvider } from "@mui/material";
+
+import theme from "./App.styles";
+import SudokuBoard from "../components/SudokuBoard/SudokuBoard";
 
 function App() {
   return (
-    <div className="App">
-      <SudokuBoard />
-    </div>
+    <ThemeProvider theme={theme}>
+      <Container>
+        <SudokuBoard />
+      </Container>
+    </ThemeProvider>
   );
 }
 
